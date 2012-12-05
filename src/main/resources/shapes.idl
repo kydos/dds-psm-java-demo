@@ -1,0 +1,19 @@
+module org {
+  module omg  {
+    module demo {
+      module dds {
+        module shapes {
+          module gen {
+            struct ShapeType {
+              string color; //@key
+              long x;
+              long y;
+              long shapesize;
+            };
+            #pragma keylist ShapeType color
+          };
+        };
+      };
+    };
+  };
+};
